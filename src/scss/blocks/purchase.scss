@@ -1,0 +1,33 @@
+.purchase {
+    
+
+    .inner-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+        @media(max-width: 1300px) {
+            width: 90%
+        }
+
+    }
+
+    &__next-btn {
+        min-width: 330px;
+        margin-top: 2rem;
+        
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__next-btn--sm {
+        display: none;
+
+        @media (max-width: 768px) {
+            display: block;
+            min-width: 285px;
+        }
+    }
+}

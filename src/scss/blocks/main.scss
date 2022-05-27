@@ -1,0 +1,25 @@
+.main {
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2.5rem;
+
+        @media(max-width: 1300px) {
+            flex-direction: column;
+        }
+    }
+
+    &__stages {
+        margin-top: 5rem;
+    }
+
+    &__recommended {
+        margin-top: 3rem
+    }
+
+    &__purchase {
+        margin-top: 2rem;
+    }
+    
+}

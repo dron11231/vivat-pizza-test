@@ -1,0 +1,11 @@
+.price-info {
+    font-size: $lg-font-size;
+    font-weight: 700;
+    
+    &__old-price {
+        color: $inactive-font-color;
+        text-decoration: line-through;
+    }
+
+   
+}

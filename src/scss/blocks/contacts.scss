@@ -1,0 +1,35 @@
+.contacts {
+    display: flex;
+    gap: 4rem;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem
+    }
+
+    &__location {
+        font-size: $sm-font-size;
+        display: flex;
+        align-items: center;
+    }
+
+    &__city {
+        margin-left: 0.5rem;
+        color: $theme-color;
+    }
+
+    &__working-time {
+        margin-left: 0.2rem;
+        color: $complementary-font-color;
+    }
+
+    &__number {
+        font-size: $lg-font-size;
+        font-weight: 600;
+    }
+
+    @media (max-width: 1300px) {
+        display: none;
+    }
+}

@@ -1,0 +1,52 @@
+.stages {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+
+    hr {
+        margin: 0;
+        width: 160px;
+        height: 0px;
+        border: none;
+        border-top: 4px dotted $inactive-font-color;
+
+        @media (max-width: 768px) {
+            width: 20px;
+            border-top: 2px dotted $inactive-font-color;
+            padding: 0 1rem;
+        }
+    }
+
+    &__item {
+        font-size: $xxl-font-size;
+        font-weight: 700;
+        color: $inactive-font-color;
+
+        @media (max-width: 768px) {
+            font-size: $lg-font-size;
+            white-space: nowrap;
+
+            &:first-child {
+            padding-left: 1rem;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width:1300px) {
+            font-size: $xl-font-size;
+            white-space: nowrap;
+        }
+    }
+
+    &__item--active {
+        color: black
+    }
+
+    @media (max-width: 768px) {
+        gap: 0.5rem;
+    }
+
+    @media (min-width: 500px) and (max-width: 1300px) {
+        justify-content: center;
+    }
+
+}

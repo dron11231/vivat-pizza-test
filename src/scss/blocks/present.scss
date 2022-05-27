@@ -1,0 +1,29 @@
+.present {
+
+    .inner-wrapper {
+        width: 100%;
+        @media(max-width: 768px) {
+            width: 90%;
+        }
+
+        @media (min-width: 768px) and (max-width: 1300px) {
+            text-align: center;
+        }
+    }
+
+    &__title {
+        margin: 0;
+    }
+
+    &__product {
+        margin-top: 2.5rem;
+        @media (min-width: 768px) and (max-width: 1300px){
+            margin: 0 auto;
+            margin-top: 2.5rem;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1300px) {
+        width: 100%; 
+    }
+}
