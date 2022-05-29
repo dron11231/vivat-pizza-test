@@ -11,9 +11,9 @@
         border-top: 4px dotted $inactive-font-color;
 
         @media (max-width: 768px) {
-            width: 20px;
+            width: 15px;
             border-top: 2px dotted $inactive-font-color;
-            padding: 0 1rem;
+            padding: 0 0.5rem;
         }
     }
 
@@ -23,11 +23,11 @@
         color: $inactive-font-color;
 
         @media (max-width: 768px) {
-            font-size: $lg-font-size;
+            font-size: $sm-font-size;
             white-space: nowrap;
 
             &:first-child {
-            padding-left: 1rem;
+            padding-left: 0.5rem;
             }
         }
 

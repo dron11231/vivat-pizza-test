@@ -5,6 +5,10 @@
     max-width: 800px;
     cursor: pointer;
 
+    &:hover {
+        transform: scale(1.03);
+    }
+
     &__picture {
         position: relative;
     }
@@ -94,7 +98,7 @@
         
         @media(max-width: 768px) {
             display: flex;
-            height: 25px;
+            height: 30px;
             justify-content: flex-end;
         }
     }
@@ -168,6 +172,9 @@
 
     &__add-btns {
         display: flex;
+        border-radius: 30px;
+        border: 2px solid $theme-color;
+        background-color: white;
     }
 
     &__btn {
@@ -176,7 +183,7 @@
         font-family: $main-font-family;
         color: $complementary-font-color;
         font-size: $lg-font-size;
-        border: 2px solid $theme-color;
+        border: none;
 
         @media (max-width: 768px) {
             font-size: $md-font-size;
@@ -188,8 +195,8 @@
         line-height: 24px;
         padding: 0.75rem 1.2rem;
         color: $complementary-font-color;
-        border-top: 2px solid $theme-color;
-        border-bottom: 2px solid $theme-color;
+        border-right: 2px solid $theme-color;
+        border-left: 2px solid $theme-color;
         cursor: default;
 
         @media (max-width: 768px) {
@@ -199,8 +206,8 @@
     }
 
     &__btn-dec {
-        border-radius: 30px 0px 0px 30px;
-        padding: 0.6rem 0.75rem 0.6rem 1.25rem;
+           border-radius: 30px 0px 0px 30px;
+           padding: 0.6rem 0.75rem 0.6rem 1.25rem;
 
         @media (max-width: 768px) {
             padding: 0.25rem 0.37rem 0.25rem 0.8rem;

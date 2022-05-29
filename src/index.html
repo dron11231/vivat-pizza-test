@@ -9,6 +9,7 @@
     <title>Vivat Pizza</title>
 </head>
 <body>
+    <div class="overlay"></div>
     <div class="container">
         <header class="header">
             <div class="header__wrapper">
@@ -66,6 +67,136 @@
             </div>
             <div class="main__container">
                 <div class="products main__products">
+                    <div class="product-card">
+                        <div class="inner-wrapper">
+                            <button class="product-card__btn-close"><img src="./img/Close.png" alt="Закрыть окно"></button>
+                            <div class="product-card__details">
+                                <img src="./img/modal-img.png" alt="Изображение продукта" class="product-card__picture">
+                                <div class="product-card__sizes">
+                                    <div class="product-card__btns">
+                                        <button class="product-card__btn">Большая <span>(36 см)</span></button>
+                                        <button class="product-card__btn product-card__btn--active">Средняя <span>(31 см)</span></button>
+                                        <button class="product-card__btn">Маленькая <span>(20 см)</span></button>
+                                    </div>
+                                    <div class="product-card__btns">
+                                        <button class="product-card__btn">Тонкое <span>(565 г)</span></button>
+                                        <button class="product-card__btn product-card__btn--active">Пышное <span>(820 г)</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__main">
+                                <h2 class="product-card__title">Чизбургер барбекю</h2>
+                                <p class="product-card__description">
+                                    Состав: Соус коктейль, фарш из отборной говядины, маринованные огурцы, спелые томаты, сыр моцарелла, сыр чеддер, соус
+                                    барбекю, хрустящий лук. <br>
+                                    На 100 г. продукта: <br>
+                                    K – 79.8 ккал; Б – 2.4 г; Ж – 5.4 г; У – 5.4 г
+                                </p>
+                                <div class="product-card__added-ingredients">
+                                    <h3>Добавить ингредиенты</h3>
+                                    <div class="ingredients">
+                                        <div class="ingredients__item">
+                                            <div class="ingredients__description">
+                                                <button class="ingredients__add-btn"></button>
+                                                <span class="ingredients__name">Говядина<br> варёно-копчёная, 50г</span>
+                                            </div>
+                                            <div class="ingredients__total">
+                                                <div class="ingredients__unit-price">
+                                                    <span>70 ₽</span>
+                                                </div>
+                                                <img src="./img/modal-scr-1.svg" alt="Изображение ингредиента" class="ingredients__picture">
+                                                <span>0 ₽</span>
+                                            </div>
+                                        </div>
+                                        <div class="ingredients__item">
+                                            <div class="ingredients__description">
+                                                <button class="ingredients__add-btn ingredients__add-btn--active"></button>
+                                                <span class="ingredients__name">Филе копчёного<br> цыплёнка, 50г</span>
+                                            </div>
+                                            <div class="ingredients__total">
+                                                <div class="ingredients__unit-price">
+                                                    <span>1 x</span>
+                                                    <span>77 ₽</span>
+                                                </div>
+                                                <img src="./img/modal-scr-2.svg" alt="Изображение ингредиента" class="ingredients__picture">
+                                                <span>77 ₽</span>
+                                            </div>
+                                        </div>
+                                        <div class="ingredients__item">
+                                            <div class="ingredients__description">
+                                                <button class="ingredients__add-btn ingredients__add-btn--active"></button>
+                                                <span class="ingredients__name">Фарш из мраморной<br> говядины, 50г</span>
+                                            </div>
+                                            <div class="ingredients__total">
+                                                <div class="ingredients__unit-price">
+                                                    <span>2 x</span>
+                                                    <span>99 ₽</span>
+                                                </div>
+                                                <img src="./img/modal-scr-3.svg" alt="Изображение ингредиента" class="ingredients__picture">
+                                                <span>198 ₽</span>
+                                            </div>
+                                        </div>
+                                        <div class="ingredients__item">
+                                            <div class="ingredients__description">
+                                                <button class="ingredients__add-btn"></button>
+                                                <span class="ingredients__name">Карбонад из<br> свинины</span>
+                                            </div>
+                                            <div class="ingredients__total">
+                                                <div class="ingredients__unit-price">
+                                                    <span>2 x</span>
+                                                    <span>70 ₽</span>
+                                                </div>
+                                                <img src="./img/modal-scr-45.svg" alt="Изображение ингредиента" class="ingredients__picture">
+                                                <span>140 ₽</span>
+                                            </div>
+                                        </div>
+                                        <div class="ingredients__item">
+                                            <div class="ingredients__description">
+                                                <button class="ingredients__add-btn"></button>
+                                                <span class="ingredients__name">Карбонад из<br> свинины</span>
+                                            </div>
+                                            <div class="ingredients__total">
+                                                <div class="ingredients__unit-price">
+                                                    <span>2 x</span>
+                                                    <span>70 ₽</span>
+                                                </div>
+                                                <img src="./img/modal-scr-45.svg" alt="Изображение ингредиента" class="ingredients__picture">
+                                                <span>140 ₽</span>
+                                            </div>
+                                        </div>
+                                        <div class="ingredients__item">
+                                            <div class="ingredients__description">
+                                                <button class="ingredients__add-btn"></button>
+                                                <span class="ingredients__name">Филе копчёного<br> цыплёнка, 50г</span>
+                                            </div>
+                                            <div class="ingredients__total">
+                                                <div class="ingredients__unit-price">
+                                                    <span>1 x</span>
+                                                    <span>77 ₽</span>
+                                                </div>
+                                                <img src="./img/modal-scr-2.svg" alt="Изображение ингредиента" class="ingredients__picture">
+                                                <span>77 ₽</span>
+                                            </div>
+                                        </div>
+                                        <div class="ingredients__item">
+                                            <div class="ingredients__description">
+                                                <button class="ingredients__add-btn"></button>
+                                                <span class="ingredients__name">Говядина<br> варёно-копчёная, 50г</span>
+                                            </div>
+                                            <div class="ingredients__total">
+                                                <div class="ingredients__unit-price">
+                                                    <span>70 ₽</span>
+                                                </div>
+                                                <img src="./img/modal-scr-1.svg" alt="Изображение ингредиента" class="ingredients__picture">
+                                                <span>0 ₽</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="product-card__purchase-btn">В корзину • <span>940</span> • 659 ₽</button>
+                            </div>
+                        </div>
+                    </div>
                     <div class="product">
                         <div class="product__picture">
                             <img src="./img/product-img.png" class="product__image" alt="Изображение продукта">
@@ -94,9 +225,9 @@
                                     <span class="product__amount">1</span>
                                     <button class="product__btn product__btn-inc">+</button>
                                 </div>
-                                <div class="product__price-everything product__price">
+                                <div class="product-price__total product__price">
                                     <span class="product__old-price">930</span>
-                                    <span class="current-price">888 ₽</span>
+                                    <span class="product__current-price">888 ₽</span>
                                 </div>
                             </div>
                         </div>
@@ -128,8 +259,8 @@
                                     <span class="product__amount">1</span>
                                     <button class="product__btn product__btn-inc">+</button>
                                 </div>
-                                <div class="product__price-everything product__price">
-                                    <span class="current-price">690 ₽</span>
+                                <div class="product-price__total product__price">
+                                    <span class="product__current-price">690 ₽</span>
                                 </div>
                             </div>
                         </div>
@@ -161,8 +292,8 @@
                                     <span class="product__amount">1</span>
                                     <button class="product__btn product__btn-inc">+</button>
                                 </div>
-                                <div class="product__price-everything product__price">
-                                    <span class="current-price">180 ₽</span>
+                                <div class="product-price__total product__price">
+                                    <span class="product__current-price">180 ₽</span>
                                 </div>
                             </div>
                         </div>
@@ -191,8 +322,8 @@
                                     <span class="product__amount">1</span>
                                     <button class="product__btn product__btn-inc">+</button>
                                 </div>
-                                <div class="product__price-everything product__price">
-                                    <span class="current-price">120 ₽</span>
+                                <div class="product-price__total product__price">
+                                    <span class="product__current-price">120 ₽</span>
                                 </div>
                             </div>
                         </div>
@@ -224,9 +355,9 @@
                                     <span class="product__amount">1</span>
                                     <button class="product__btn product__btn-inc">+</button>
                                 </div>
-                                <div class="product__price-everything product__price">
+                                <div class="product-price__total product__price">
                                     <span class="product__old-price">420</span>
-                                    <span class="current-price">385 ₽</span>
+                                    <span class="product__current-price">385 ₽</span>
                                 </div>
                             </div>
                         </div>
